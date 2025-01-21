@@ -1,3 +1,3 @@
-gcc -o cairo cairo.c `pkg-config --cflags --libs gtk+-3.0` -lm
+gcc -o cairo cairo.c `pkg-config --cflags --libs gtk4` -lm
 
 ./cairo
