@@ -3,6 +3,7 @@
 #include <cairo.h>
 #include <math.h>
 
+
 // Global variables
 static GList *redo_stack = NULL;
 static GtkWidget *color_display, *picture;
